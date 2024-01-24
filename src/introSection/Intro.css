@@ -1,0 +1,100 @@
+.IntroParent {
+    display: flex;
+    margin: 0 5px 0 5px;
+    flex-direction: column;
+    background-color: rgb(246, 240, 229);
+    width: 100%;
+    /* height: fit-content; */
+}
+
+.IntroName {
+    margin: 44px 0 32px 69px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    margin-top: 40px;
+}
+
+.Polaris-Layout {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-bottom: 64px;
+    margin-right: 64px;
+    margin-left: 64px;
+}
+
+.card1 {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 332px;
+}
+
+.card1-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1-header {
+    font-weight: 650;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 650;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* font-variation-settings: 'slnt' 0; */
+    color: #4A4A4A;
+    margin-top: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.card1-subtext {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-variation-settings: 'slnt' 0;
+    color: #4A4A4A;
+}
+
+.card1-footer {
+    margin-top: 32px;
+}
+
+.card2 {
+    background-color: #FFF8DB;
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 332px;
+    margin-left: 16px;
+    display: flex;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.card3 {
+    background-color: #EAF4FF;
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 332px;
+    margin-left: 16px;
+    display: flex;
+}
+
+.card3-footer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+}
